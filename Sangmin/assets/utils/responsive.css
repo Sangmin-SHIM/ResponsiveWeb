@@ -44,6 +44,26 @@
   #section-1-full-img {
     background-image: url("../snow.jpg");
   }
+
+  .section4_content,
+  .section45_content {
+    margin-left: 0px !important;
+    height: 450px !important;
+    margin-bottom: 100px !important;
+  }
+
+  .graph {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .graph_content {
+    padding-bottom: 180px !important;
+  }
+
+  .graph p {
+    min-height: 20vh !important;
+  }
 }
 
 @media only screen and (min-width: 980px) and (max-width: 1279px) {
@@ -99,6 +119,39 @@
     height: 100%;
     min-height: 20vh;
     text-align: center;
+  }
+
+  .bienvenue {
+    font-size: 8em !important;
+  }
+
+  .section4_content,
+  .section45_content {
+    margin-left: 0px !important;
+    height: 300px !important;
+    margin-bottom: 100px !important;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%) !important;
+  }
+
+  .graph {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .graph_content {
+    padding-bottom: 210px !important;
+  }
+
+  .graph p {
+    min-height: 20vh !important;
+  }
+  .sketchy_blue {
+    padding-bottom: 50px !important;
+    min-height: 35vh !important;
+  }
+
+  .section2 .sketchy {
+    margin-bottom: 30px !important;
   }
 }
 
@@ -242,11 +295,65 @@
   }
 
   .section3 {
+    top: -50px !important;
     clip-path: polygon(50% 3%, 100% 0, 100% 100%, 0 100%, 0 0) !important;
   }
 
   #img-4 {
     margin-left: 0px !important;
+    padding-bottom: 50px !important;
+    padding-left: 0px !important;
+    border-radius: 0% 0% 0% 0% !important;
+  }
+
+  #img-3 {
+    padding-bottom: 50px !important;
+    padding-right: 0px !important;
+    border-radius: 0% 0% 0% 0% !important;
+  }
+  .bienvenue {
+    font-size: 5em !important;
+  }
+
+  .section4_content,
+  .section45_content {
+    margin-left: 0px !important;
+    height: 290px !important;
+    margin-bottom: 100px !important;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%) !important;
+  }
+
+  .graph {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .graph_content {
+    padding-bottom: 40.95px !important;
+    margin-top: 20px !important;
+  }
+
+  .section5 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+  }
+
+  .card {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+
+  .padding-around-footer p {
+    text-align: center !important;
+  }
+  .graph p {
+    min-height: 15vh !important;
+  }
+
+  .center {
+    padding-top: 33px !important;
   }
 }
 
@@ -391,17 +498,21 @@
 
   #img-3 {
     border-radius: 0% !important;
+    padding-right: 0px !important;
+    padding-bottom: 70px !important;
   }
 
   #img-4 {
     border-radius: 0% !important;
-    margin-left: 0px !important;
+    padding-left: 0px !important;
+    padding-bottom: 30px !important;
   }
 
   #img-2 {
     width: 100% !important;
     height: 100% !important;
     min-height: 30vh !important;
+    margin-top: 10px !important;
   }
   .section3 {
     top: -20px !important;
@@ -415,12 +526,51 @@
     clip-path: polygon(50% 1%, 100% 0, 100% 100%, 0 100%, 0 0) !important;
   }
 
-  .section4_content {
+  .section4_content,
+  .section45_content {
     margin-left: 0px !important;
+    height: 280px !important;
+    margin-bottom: 100px !important;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%) !important;
   }
 
   .section5 {
-    clip-path: polygon(50% 0%, 100% 15%, 100% 100%, 0 100%, 0 15%) !important;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+  }
+
+  .bienvenue {
+    font-size: 3em !important;
+  }
+
+  .graph {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .graph_content {
+    padding-bottom: 30px !important;
+    margin-top: 20px !important;
+  }
+
+  .padding-around-footer p {
+    text-align: center !important;
+  }
+
+  .sketchy_blue {
+    padding-bottom: 50px !important;
+    min-height: 35vh !important;
+  }
+
+  .circle_card .content p {
+    padding-top: 2px !important;
+    font-size: 17px !important;
+    font-weight: bold;
+  }
+
+  .sketchy {
+    font-size: 18px !important;
   }
 }
 
@@ -560,6 +710,73 @@
   }
 
   #img-3 {
-    border-radius: 0% 0% 0% 0%;
+    border-radius: 0% 0% 0% 0% !important;
+    padding-right: 0px !important;
+    padding-bottom: 50px !important;
+  }
+
+  #img-4 {
+    border-radius: 0% 0% 0% 0% !important;
+    padding-top: 40px !important;
+    padding-left: 0px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .bienvenue {
+    font-size: 2.3em !important;
+  }
+
+  .section4_1 {
+    padding-bottom: 50px !important;
+  }
+  .section4_content,
+  .section45_content {
+    height: 370px !important;
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%) !important;
+  }
+
+  .graph {
+    display: flex !important;
+    flex-direction: column;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .graph_content {
+    padding-bottom: 60.25px !important;
+    margin-top: 20px !important;
+  }
+
+  .sketchy_blue {
+    padding-bottom: 110px !important;
+    min-height: 50vh !important;
+  }
+
+  .section3 {
+    top: 0px !important;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+  }
+
+  .section5 {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%) !important;
+  }
+
+  .button_kind {
+    width: 70% !important;
+  }
+
+  .padding-around-footer p {
+    text-align: center !important;
+  }
+  .deco6 {
+    width: 150px !important;
+  }
+
+  .circle_card .content p {
+    padding-top: 5px !important;
+    font-size: 10px !important;
+    font-weight: bold;
   }
 }
